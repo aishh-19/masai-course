@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    background-color: rgb(239, 132, 61);
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+.navbar > ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+ul > li{
+    list-style: none;
+}
+ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+ul>li>a:hover{
+   color: white;
+}
+.buttons{
+    margin: 6px;
+    padding: 5px;
+}
